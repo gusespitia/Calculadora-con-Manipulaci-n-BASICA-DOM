@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+    
+    <h1 class="verde"> Calculadora Basica con MANIPULACION DEL DOM</h1>
+
+
+
+
+<input id="calculo1"  placeholder="Escribe un valor aqui" />
+<input onchange="console.log('Cambio el INPUT')" id="calculo2" placeholder="Escribe un valor aqui"/>
+
+<hr>
+<button id="btnCalcular" onclick="btnOnClick('suma')"> Sumar</button>
+<button id="btnCalcularResta" onclick="btnOnClick('resta')"> Restar</button>
+<button id="btnCalcularMultiplicacion" onclick="btnOnClick('multiplicar')"> Multiplicar</button>
+<button id="btnCalcularDividir" onclick="btnOnClick('dividir')"> Dividir</button>
+<hr>
+<p id="result"></p>
+
+    <script src="./script.js"> </script >
+</body>
+</html>
